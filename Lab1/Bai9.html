@@ -1,0 +1,76 @@
+<table width=500>
+    <tr>
+        <td>
+            <h3 align="center">ĐĂNG KÍ THÔNG TIN VIỆC LÀM</h3>
+            <form>
+                <p style="background-color: green; color: white">Thông tin cá nhân</p>
+                <label for="Name">
+                    <font color="red">*</font> Họ &amp; tên:
+                </label>
+                <input type="text" name="Name" id="Name"><br>
+                <label for="Date">
+                    <font color="red">*</font> Ngày tháng năm sinh:
+                </label>
+                <input type="text" name="Date" id="Date"><br>
+                <label for="Sex" id="Sex">Giới tính</label>
+                <select id="Sex">
+                    <option value="Male">Nam</option>
+                    <option value="Female">Nữ</option>
+                </select><br>
+                <label for="Marital" id="Marital">Tình trạng hôn nhân: </label>
+                <select name="Marital" id="Marital">
+                    <option value="Male">Độc thân</option>
+                    <option value="Female">Đã kết hôn</option>
+                </select><br>
+                <p style="background-color: green; color: white">Thông tin liên lạc</p>
+                <label for="Address">
+                    <font color="red">*</font> Địa chỉ:
+                </label>
+                <input type="text" name="Address" id="Address"><br>
+                <label for="City">
+                    <font color="red">*</font> Tỉnh/Thành phố:
+                </label>
+                <input type="text" name="City" id="City"><br>
+                <label for="PhoneNumber">Số điện thoại: </label>
+                <input type="text" name="PhoneNumber" id="PhoneNumber"><br>
+                <label for="MobileNumber">Số điện thoại di động: </label>
+                <input type="text" name="MobileNumber" id="MobileNumber"><br>
+                <label for="Email">
+                    <font color="red">*</font> Email:
+                </label>
+                <input type="text" name="Email" id="Email"><br>
+                <p style="background-color: green; color: white">Trình độ học vấn</p>
+                <label for="Education">
+                    <font color="red">*</font> Học vấn:
+                </label>
+                <select name="Education" id="Education">
+                    <option value="Pick" hidden>Chọn</option>
+                    <option value="HighSchool">Trung học phổ thông</option>
+                    <option value="University">Đại học</option>
+                </select><br>
+                <label for="EducationInfo">
+                    <font color="red">*</font> Thông tin về học vấn:
+                </label>
+                <textarea id="EducationInfo" cols="20" rows="1" wrap="off"></textarea><br>
+                <label for="Languages">Ngoại ngữ: </label>
+                <textarea id="Languages" cols="20" rows="1" wrap="off"></textarea><br>
+                <label for="Skills">Kỹ năng: </label>
+                <textarea id="Skills" cols="20" rows="1" wrap="off"></textarea>
+                <p style="background-color: green; color: white">Kinh nghiệm làm việc</p><br>
+                <label for="Year">Số năm kinh nghiệm: </label>
+                <input type="text" name="Year" id="Year"><br>
+                <label for="Experience">Kinh nghiệm làm việc: </label>
+                <textarea name="Experience" id="Experience" cols="20" rows="1" wrap="off"></textarea>
+                <p style="background-color: green; color: white">Mong muốn bản thân</p>
+                <label for="Wish">Việc làm mong muốn: </label>
+                <textarea name="Wish" id="Wish" cols="20" rows="1" wrap="off"></textarea><br>
+                <label for="Salary">
+                    <font color="red">*</font> Mức lương thỏa thuận:
+                </label>
+                <input type="text" name="Salary" id="Salary"> VNĐ <br>
+                <input type="submit" value="Gửi hồ sơ">
+                <input type="reset" value="Xóa form">
+            </form>
+        </td>
+    </tr>
+</table>
