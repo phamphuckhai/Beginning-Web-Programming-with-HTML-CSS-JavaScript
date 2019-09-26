@@ -1,15 +1,34 @@
-<table border="1">
-    <tr>
-        <td>
-            <h3>ĐĂNG NHẬP DIỄN ĐÀN</h3><br>
-            <form>
-                <Label for="Name">Tên đăng nhập: </Label>
-                <input type="text" name="Name" id="Name" value=""><br>
-                <label for="Password">Mật khẩu:</label>
-                <input type="password" name="Pass"><br>
-                <input type="submit" name="btnSubmit" value="Đăng nhập">
-                <input type="reset" name="btnReset" value="Phục hồi">
-            </form>
-        </td>
-    </tr>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bai8</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <h3>ĐĂNG NHẬP DIỄN ĐÀN</h3><br>
+                <form>
+                    <div style="display: flex; flex-flow: column wrap; float: left;">
+                        <Label for="Name">Tên đăng nhập: </Label><br>
+                        <label for="Password">Mật khẩu:</label></div>
+                    <div style="display: flex; flex-flow: column wrap;">
+                        <input type="text" name="Name" id="Name" value=""><br>
+                        <input type="password" name="Pass">
+                    </div>
+                    <br>
+
+                    <input type="submit" name="btnSubmit" value="Đăng nhập">
+                    <input type="reset" name="btnReset" value="Phục hồi">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
